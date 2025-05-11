@@ -58,5 +58,5 @@
 ## Screenshots
 
 ### 主界面
-<img src="screenshots/main_window.png" width="30%" alt="主界面">
+<img src="screenshots/main_window.jpg" width="30%" alt="主界面">
 
