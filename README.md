@@ -49,7 +49,7 @@
 
 ### macOS (Apple Silicon)
 
-[Photo Organizer.dmg](https://github.com/gumpcpy/photo-organizer/releases/download/v1.0/Photo%20Organizer.dmg)
+[Photo Organizer.dmg](https://objects.githubusercontent.com/github-production-release-asset-2e65be/849140106/145bfe87-e11e-407c-8664-f1346ed383e5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250511T085107Z&X-Amz-Expires=300&X-Amz-Signature=779f64707aa6e18762c956d4b167d63a0635fdc36264c9c6c34d8cdb3c0859bc&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DPhoto.Organizer.dmg&response-content-type=application%2Foctet-stream)
 
 ### 系統需求
 - macOS 11.0 或更新版本
