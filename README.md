@@ -58,5 +58,6 @@
 ## Screenshots
 
 ### 主界面
-<img src="screenshots/main_window.jpg" width="30%" alt="主界面">
+![Image](https://github.com/user-attachments/assets/7f121547-d012-4992-b13e-8a0b5fb13e22)
+<!-- <img src="screenshots/main_window.jpg" width="30%" alt="主界面"> -->
 
