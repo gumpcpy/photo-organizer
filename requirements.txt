@@ -1,0 +1,6 @@
+PyQt5>=5.15.0
+pyyaml>=6.0
+pillow>=10.0.0
+pillow-heif>=0.13.0
+hachoir>=3.2.0
+piexif>=1.1.3 

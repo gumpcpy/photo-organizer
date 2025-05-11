@@ -3,10 +3,8 @@ Author: gumpcpy gumpcpy@gmail.com
 Date: 2024-08-25 19:33:26
 LastEditors: gumpcpy gumpcpy@gmail.com
 LastEditTime: 2024-08-27 20:00:31
-Description: 經過測試
-用法如下
-cd Documents/_Proj/photoDispatchFolder
-python3 way1.py
+Description: 
+見README.md
 '''
 from pillow_heif import register_heif_opener
 from PIL import Image
@@ -143,7 +141,7 @@ def get_media_date(file_path):
         return get_file_creation_date(file_path)
     
     else:
-        print("no date in png aae.")
+        print("no date in file.")
         return False
 
 
@@ -203,15 +201,23 @@ def organize_photos_by_date(root_folder):
     delete_empty_folders(root_folder)
 
 
-# Example usage
-# file_path = "/Users/gump/Desktop/test/IMG_O3453.AAE"
-# file_path = "/Users/gump/Desktop/test/IMG_3453.HEIC"
-# photo_date = get_media_date(file_path)
-# if photo_date:
-#     print("Photo Date:", photo_date)
-# else:
-#     print("No date found in EXIF metadata.")
+def main():
+    """
+    用于开发时调试的主函数
+    """
+    # 测试文件路径
+    test_file_path = "/Users/gump/Desktop/test/IMG_3453.HEIC"
+    
+    # 测试获取媒体日期
+    photo_date = get_media_date(test_file_path)
+    if photo_date:
+        print("Photo Date:", photo_date)
+    else:
+        print("No date found in EXIF metadata.")
+    
+    # 测试文件夹整理
+    test_folder_path = "/Users/gump/Desktop/test"
+    organize_photos_by_date(test_folder_path)
 
-
-file_path = input("請輸入要整理的資料夾路徑: ")
-organize_photos_by_date(file_path.strip())
+if __name__ == "__main__":
+    main()
